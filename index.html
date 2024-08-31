@@ -3,29 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <script src="https://cdn.tailwindcss.com"></script>  
         <title>Arymus' Portfolio </title>
     </head>
-    <body>
+    <body class="bg-gray-900">
         <header>
-            <h1>My name is Arymus,
+            <h1 class="text-blue-500 font-bold text-2xl text-center">My name is Arymus,
                 <br>
-                I'm a nerd,
+                I'm a <a href="https://media.tenor.com/DuThn51FjPcAAAAM/nerd-emoji-nerd.gif">nerd</a>,
                 <br>
                 I make stuff for YOU!
             </h1>
         </header>
-        <main>
+        <main class="text-white font-mono text-center">
+            <br>
             <p>I'm Arymus! I work with Python and HTML, but I'm learning to work with other forms of code.</p>
-            <p>All my projects are posted on my <a href="https://github.com/Arymus">github</a>.</p>
+            <p>All my projects are posted on my <a href="https://github.com/Arymus" class="underline decoration-solid text-blue-500 hover:text-blue-900">github</a>.</p>
+            <p>Here are some of my <strong class="text-blue-500">favorite</strong> projects.</p>
         </main>
         <footer>
-            <p>Here are some of my <b>favorite</b> projects.</p>
-            <button><a href="https://github.com/Arymus/Lightbulb-Lightswitch"><img src="lightproj.png"></a></button>
-            <button><a href="https://github.com/Arymus/Headcanon-Generator"><img src="hcgen.png"></a></button>
-            <button><a href="https://github.com/Arymus/Temperature-Converter"><img src="tempconverter.png" height="82"></a></button>
-            <button><a href="https://github.com/Arymus/Tk-Rock-Paper-Scissors"><img src="tk_rps.png"></a></button>
             <br>
-            <img src="arysig.PNG" height="75" width="75">
+            <ul class="text-white text-2xl underline text-center">
+            <li><a href="https://github.com/Arymus/Lightbulb-Lightswitch">Lightbulb-Lightswitch</a></li>
+            <li><a href="https://github.com/Arymus/Headcanon-Generator">Headcanon-Generator</a></li>
+            <li><a href="https://github.com/Arymus/Temperature-Converter">Temperature-Converter</a></li>
+            <li><a href="https://github.com/Arymus/Tk-Rock-Paper-Scissors">Tk-Rock-Paper-Scissors</a></li>
+            </ul>
+            <div class="invert flex justify-center h-20">
+            <img src="arysig2.png">
+            </div>
         </footer>
     </body>
 </html>
