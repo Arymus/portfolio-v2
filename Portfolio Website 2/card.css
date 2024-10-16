@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Caveat;
+    src: url(Caveat-Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: repeating-linear-gradient(
+    90deg,
+  #b47ef0,
+  #b47ef0 50px,
+  #df5e84 50px,
+  #df5e84 100px
+    );
+}
+
+header {
+    background-color: #ffffff;
+    position: sticky;
+    font-family: Caveat;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    text-align: right;
+    margin: 20px;
+    word-spacing: 10px;
+    font-size: 1.5rem;
+    color: #b47ef0;
+    margin-top: 0;
+}
+
+#navname {
+    color: #b47ef0;
+    font-family: Caveat;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-right: 50vw;
+}
+
+#navlogo {
+    float: left;
+}
+
+a:link, a:visited {
+    color: #df5e84;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cardfront {
+    border: 2px solid #808080;
+    background-image: url("star.png");
+    background-size: 325px 325px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #b47ef0;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border-radius: 10px; 
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    color: #b47ef0;
+    font-family: Caveat;
+    font-size: 1.25rem
+}
+
+.cardback {
+    border: 2px solid #808080;
+    background-image: url("starback.png");
+    background-size: 325px 325px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 200px;
+    border-radius: 10px; 
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    color: #b47ef0;
+    font-family: Caveat;
+    font-size: 1.25rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Caveat;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+footer {
+    background-color: #ffffff;
+    font-family: Caveat;
+    color: #b47ef0;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+p {
+    color: #df5e84;
+}
+
+.backstar {
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+#phonenumber:hover {
+    text-decoration: underline;
+}
