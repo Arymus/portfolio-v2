@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Caveat;
+    src: url(Caveat-Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-image: repeating-linear-gradient(
+    90deg,
+  #b47ef0,
+  #b47ef0 50px,
+  #df5e84 50px,
+  #df5e84 100px
+    );
+}
+
+header {
+    background-color: #ffffff;
+    position: sticky;
+    font-family: Caveat;
+    top: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px dashed #df5e84;
+}
+
+nav {
+    text-align: right;
+    margin: 20px;
+    word-spacing: 10px;
+    font-size: 1.5rem;
+    color: #b47ef0;
+    margin-top: 0;
+}
+
+#navname {
+    color: #b47ef0;
+    font-family: Caveat;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-right: 59vw;
+}
+
+#navlogo {
+    float: left;
+}
+
+a:link, a:visited {
+    color: #b47ef0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #df5e84;
+    text-decoration: underline;
+}
+
+.top {
+    align-items: center;
+    float: right;
+}
+
+.intro {
+    text-align: left;
+    margin-top: 0;
+    margin-right: 20px;
+    font-weight: 100;
+}
+
+#introline2 {
+    color: #df5e84;
+}
+
+#selfie {
+    margin: 20px;
+    border-radius: 100px;
+}
+
+p {
+    color: #df5e84;
+}
+
+span {
+    color: #b47ef0;
+}
+
+main {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 16px;
+    font-family: Caveat;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffffff;
+    font-family: Caveat;
+    color: #b47ef0;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 5px;
+}
+#footerphoto {
+    margin: 20px;
+    margin-bottom: 0;
+}
+#footerphoto, .bind {
+    float: left;
+}
+
+.links {
+    margin-left: 35vw;
+    margin-top: 5px;
+}
+
+#number {
+    font-size: 1.1rem;
+    color: #b47ef0;
+    margin-top: 0;
+}
+
+.bind {
+    display: flex;
+    align-items: center;
+}
+
+sub {
+    margin: 0;
+    align-items: end;
+    display: flex;
+}
