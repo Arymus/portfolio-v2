@@ -26,10 +26,10 @@ fetchRepository().then(({repository, error}) => {
 });
 
 function displayRepositories(repository) {
-    repository.forEach(() => {
+    repository.forEach((repo) => {
         const repoList = document.createElement("li");
         repoList.classList.add("repoList");
-        repoList.innerHTML = `<a href="${repository.url}" target="_blank">${repository.name}</a>`;
+        repoList.innerHTML = `<a href="${repo.html_url}" target="_blank">${repo.name}</a>`;
         document.getElementById("repo-list").appendChild(repoList);
         console.log(repository.name);
     });
