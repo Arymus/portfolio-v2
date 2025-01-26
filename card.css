@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        border-radius: 20px;
+        margin: 20px;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Caveat;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: -70px;
+    margin-top: 70px;
+}
+
+p {
+    color: #df5e84;
+}
