@@ -4,8 +4,13 @@
 }
 
 @media only screen and (max-width: 700px) {
-    header {
-        width: 100vw;
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .whitespace {
+        width: 30vw;
     }
 }
 
@@ -21,6 +26,10 @@ body {
   #df5e84 100px
     );
     overflow-x: hidden;
+}
+
+main {
+    min-height: 100%;
 }
 
 header {
@@ -40,7 +49,6 @@ header {
 
 .whitespace {
     width: 50vw;
-    height: 20px;
 }
 
 nav {
