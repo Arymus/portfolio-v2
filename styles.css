@@ -1,3 +1,18 @@
+@media only screen and (max-width: 500px) {
+    .about-me {
+        min-width: fit-content;
+        min-height: fit-content;
+    }
+
+    .flexgroup, .top {
+        display: flex;
+        flex-direction: column;
+        #logo {
+            display: none;
+        }
+    }
+}
+
 .top {
     display: flex;
     justify-content: space-around;

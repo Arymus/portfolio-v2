@@ -3,14 +3,22 @@
     src: url(Caveat-Regular.ttf);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {    
     nav {
         display: flex;
         justify-content: space-between;
+        a {
+            margin: 5px;
+        }
     }
 
     .whitespace {
         width: 30vw;
+    }
+
+    footer {
+        width: 100%;
+        bottom: 0;
     }
 }
 
@@ -84,38 +92,25 @@ footer {
     background-color: #ffffff;
     font-family: Caveat;
     color: #b47ef0;
-    display: flex;
     bottom: 0;
     left: 0;
     width: 100vw;
-    padding: 5px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    nav {
+        display: flex;
+        margin: 0;
+        img {
+            margin: 20px;
+        }
+    }
 }
 
 #footerphoto {
-    margin: 20px;
-    margin-bottom: 0;
-}
-
-#footerphoto, .bind {float: left;}
-
-.links {
-    margin-left: 35vw;
-    margin-top: 5px;
-}
-
-#number {
-    font-size: 1.1rem;
-    color: #b47ef0;
-    margin-top: 0;
-}
-
-.bind {
-    display: flex;
-    align-items: center;
+    margin: 20px 20px 0 20px;
 }
 
 sub {
-    margin: 0;
-    align-items: end;
-    display: flex;
+    justify-self: center;
 }
