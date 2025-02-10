@@ -1,9 +1,9 @@
 @font-face {
     font-family: Caveat;
-    src: url(Caveat-Regular.ttf);
+    src: url("/Caveat-Regular.ttf");
 }
 
-@media only screen and (max-width: 500px) {    
+@media only screen and (max-width: 500px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -27,11 +27,11 @@ body {
     width: 100vw;
     margin: 0;
     background-image: repeating-linear-gradient(
-    90deg,
-  #b47ef0,
-  #b47ef0 50px,
-  #df5e84 50px,
-  #df5e84 100px
+        90deg,
+        #b47ef0,
+        #b47ef0 50px,
+        #df5e84 50px,
+        #df5e84 100px
     );
     overflow-x: hidden;
 }
@@ -78,7 +78,8 @@ nav {
     float: left;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #b47ef0;
     text-decoration: none;
 }
